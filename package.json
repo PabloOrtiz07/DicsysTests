@@ -1,0 +1,27 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "pruebas dicsys",
+  "main": "index.js",
+  "scripts": {
+    "test": "open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PabloOrtiz07/DicsysTests.git"
+  },
+  "keywords": [
+    "js",
+    "test",
+    "Testing"
+  ],
+  "author": "Pablo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PabloOrtiz07/DicsysTests/issues"
+  },
+  "homepage": "https://github.com/PabloOrtiz07/DicsysTests#readme",
+  "dependencies": {
+    "cypress": "^12.17.1"
+  }
+}
