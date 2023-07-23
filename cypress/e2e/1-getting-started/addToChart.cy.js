@@ -7,7 +7,7 @@ describe('Agregar a carrito con cuenta logueada',()=>{
   })
 
 
-  it('logueo valido',()=>{
+  it('logueo valido y agrego 3 item del mismo tipo',()=>{
     const login = new loginPage();
     const addToChartConfigurations = new addToChartConfiguration();
     login.getLoginIndex().click();
