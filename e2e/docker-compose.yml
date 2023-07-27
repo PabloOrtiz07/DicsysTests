@@ -8,3 +8,7 @@ services:
       - ./cypress:/e2e
       - ./cypress/reports:/e2e/cypress/reports  # Montar la carpeta de informes como un volumen
     user: "${UID}:${GID}"  # <-- Agrega esta línea para ejecutar el contenedor como usuario actual
+
+#buscar documentación 
+#para reportes en docker
+#https://stackoverflow.com/questions/72462425/combined-json-mochawesome-test-report-not-generating-during-cypress-tests-in-d
