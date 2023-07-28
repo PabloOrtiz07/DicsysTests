@@ -1,6 +1,7 @@
 const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
+  chromeWebSecurity:false,
   e2e: {
     specPattern: "**/*.cy.*",
     //exclude: ["**/*.mp4"],
