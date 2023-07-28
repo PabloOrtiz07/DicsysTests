@@ -6,7 +6,8 @@ Este proyecto contiene casos de prueba automatizados utilizando Cypress para dos
 
 Asegúrate de tener instalados los siguientes elementos antes de ejecutar este proyecto:
 
-- Docker y Docker Compose: [Instrucciones de instalación](https://docs.docker.com/get-docker/)
+- Docker y Docker Compose: [Instrucciones de instalación](https://docs.docker.com/get-docker/) 
+(Asegurarse que este 'corriendo' docker en su máquina, abriendo 'Docker Destok' antes de ejecutar el docker Compose)
 
 ## Configuración del entorno
 
@@ -16,13 +17,13 @@ Asegúrate de tener instalados los siguientes elementos antes de ejecutar este p
 git clone https://github.com/PabloOrtiz07/DicsysTests
 ```
 
-1. Navega al directorio del proyecto:
+2. Navega al directorio del proyecto desde el comando:
 
 ```bash
-cd e2e
+cd DICSYSTEST/e2e
 ```
 
-1. Inicia el entorno Docker mediante Docker Compose:
+3. Inicia el entorno Docker mediante Docker Compose:
 
 ```bash
 docker-compose up 
@@ -78,3 +79,15 @@ DICSYSTESTS/
   ├── .gitignore
   └── README.md
 ```
+## Errores comúnes
+
+###En el caso de linux, las carpetas 'generadas' por cypress, tales cómo videos o reportes, se generan con un candado y no son posible de borrarlas de forma normal. El comando a utilizar para 'debloquear' los candados es: 
+
+```bash
+sudo chown -R $USER: $HOME
+```
+
+## Link de carpeta Drive con los tests en formato video.
+Ingrese aquí.
+[Ingrese aquí](https://drive.google.com/drive/folders/1yZM3ht9NKMckl1vzZ4-QA7A6FoBMqAYg?usp=sharing) 
+
