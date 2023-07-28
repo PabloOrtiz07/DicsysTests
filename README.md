@@ -53,7 +53,7 @@ Usuario de prueba para Mercado Libre:
 
 ### 2. Caso de prueba para Automation Test Store
 
-#### a. Login de la página web con usuario y contraseña correcto
+#### a. Login de la página web con usuario y contraseña correctas
 #### b. Login de la página web con usuario incorrecto
 #### c. Login de la página web con contraseña incorrecta
 #### d. Login de la página web y se agrega al carrito de compra 3 items del mismo tipo
