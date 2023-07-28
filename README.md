@@ -85,7 +85,7 @@ DICSYSTESTS/
 ```
 ## Errores comúnes
 
-### En el caso de linux, las carpetas 'generadas' por cypress, tales cómo videos o reportes, se generan con un candado y no son posible de borrarlas de forma normal. El comando a utilizar para 'debloquear' los candados es: 
+En el caso de linux, las carpetas 'generadas' por cypress, tales cómo videos o reportes, se generan con un candado y no son posible de borrarlas de forma normal. El comando a utilizar para 'debloquear' los candados es: 
 
 ```bash
 sudo chown -R $USER: $HOME
