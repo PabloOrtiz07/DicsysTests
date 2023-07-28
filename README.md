@@ -27,6 +27,7 @@ cd e2e
 ```bash
 docker-compose up 
 ```
+#### Este comando, generará 3 videos de los test. Y además, reportes en XML.
 
 Esto iniciará dos contenedores Docker, uno para Mercado Libre y otro para Automation Test Store, con Cypress instalado y listo para ejecutar los casos de prueba.
 
@@ -62,15 +63,18 @@ DICSYSTESTS/
   ├── e2e/
   │    ├── cypress/
   │    │    ├── cypress/
-  │    │    │    ├── downloads/
+  │    │    │    ├── reports/
+  │    │    │    ├── videos/ - Videos test
   │    │    ├── integration/
   │    │    │    └── loginMercadoLibre.cy.js
   │    │    ├── pages/
   │    │    │    └── MercadoLibreLogin.js
+  │    │    ├── reports/ - Reportes xml
   │    │    ├── support/
   │    │    │    ├── commands.js
   │    │    │    └── e2e.js
   │    ├── docker-compose.yml/
   ├── package.json
+  ├── .gitignore
   └── README.md
 ```
