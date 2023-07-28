@@ -5,9 +5,6 @@ class loginMeli{
         this.userButton='button > .andes-button__content';
         this.passInput = '[id="password"]';
         this.passButton='button#action-complete > .andes-button__content';
-        //this.offerButton = 'li:nth-of-type(2) > .nav-menu-item-link';
-        //this.offerButton = '[title="Ver todas"]';
-        //this.last2000 = 'li:nth-of-type(6) > .carousel_item';
     }
 }
 

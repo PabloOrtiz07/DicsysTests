@@ -1,2 +1,6 @@
 *node_modules/*
 node_modules
+# Cypress Artifacts
+cypress/screenshots/
+cypress/videos/
+./node_modules

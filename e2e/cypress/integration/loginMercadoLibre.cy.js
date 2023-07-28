@@ -1,5 +1,5 @@
 import loginMeli from "../pages/mercadoLibreLogin.js"
-/*
+
 describe('Login de Mercado Libre correcto',()=>{
     beforeEach(()=>{
       cy.visit('https://www.mercadolibre.com.ar/')
@@ -28,7 +28,7 @@ describe('Login de Mercado Libre incorrecto',()=>{
     login.getUserButton().click();
     cy.wait(2000); // Espera 2 segundos 
   })
-})*/
+})
 describe('Click on MercadoLibre Offer Link', () => {
   it('Should click on the MercadoLibre Offer link', () => {
     cy.visit('https://www.mercadolibre.com.ar'); // Replace with the actual URL
