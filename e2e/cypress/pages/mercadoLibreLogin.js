@@ -6,9 +6,8 @@ class loginMeli{
         this.passInput = '[id="password"]';
         this.passButton='button#action-complete > .andes-button__content';
         //this.offerButton = 'li:nth-of-type(2) > .nav-menu-item-link';
-        //this.offerButton = '[href="https://www.mercadolibre.com.ar/ofertas#nav-header"]';
-        this.offerButton = 'a[@innertext="Ofertas"]';
-        this.last2000 = 'li:nth-of-type(6) > .carousel_item';
+        //this.offerButton = '[title="Ver todas"]';
+        //this.last2000 = 'li:nth-of-type(6) > .carousel_item';
     }
 }
 
@@ -36,10 +35,12 @@ export default class login {
     getPassButton(){
         return cy.get(this.locators.passButton);
     }
+    /**
     getOfferButton(){
         return cy.get(this.locators.offerButton);
     }
     get2000Button(){
         return cy.get(this.locators.last2000);
     }
+     */
 }
