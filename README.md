@@ -57,19 +57,20 @@ Usuario de prueba para Mercado Libre:
 
 ## Estructura del proyecto
 
-FIJARSE BIEEEEEEEEEEEEEN
-proyecto-cypress-docker/
-  ├── cypress/
-  │    ├── fixtures/
-  │    ├── integration/
-  │    │    ├── mercado_libre/
-  │    │    │    ├── login_valido.spec.js
-  │    │    │    ├── login_invalido.spec.js
-  │    │    │    └── busqueda.spec.js
-  │    │    └── automation_test_store/
-  │    │         └── login_y_suscripcion.spec.js
-  │    ├── plugins/
-  │    └── support/
-  ├── cypress.json
-  ├── docker-compose.yml
+```
+DICSYSTESTS/
+  ├── e2e/
+  │    ├── cypress/
+  │    │    ├── cypress/
+  │    │    │    ├── downloads/
+  │    │    ├── integration/
+  │    │    │    └── loginMercadoLibre.cy.js
+  │    │    ├── pages/
+  │    │    │    └── MercadoLibreLogin.js
+  │    │    ├── support/
+  │    │    │    ├── commands.js
+  │    │    │    └── e2e.js
+  │    ├── docker-compose.yml/
+  ├── package.json
   └── README.md
+```
