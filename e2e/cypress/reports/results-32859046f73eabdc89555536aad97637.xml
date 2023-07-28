@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="30.124" tests="3" failures="0">
+  <testsuite name="Root Suite" timestamp="2023-07-28T21:14:18" tests="0" file="integration/login.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Logueo de pagina correcto" timestamp="2023-07-28T21:14:18" tests="1" time="16.924" failures="0">
+    <testcase name="Logueo de pagina correcto logueo valido" time="12.953" classname="logueo valido">
+    </testcase>
+  </testsuite>
+  <testsuite name="Logueo de pagina erroneo con contraseña incorrecta" timestamp="2023-07-28T21:14:35" tests="1" time="6.950" failures="0">
+    <testcase name="Logueo de pagina erroneo con contraseña incorrecta logueo valido" time="6.876" classname="logueo valido">
+    </testcase>
+  </testsuite>
+  <testsuite name="Logueo de pagina erroneo con usuario incorrecto" timestamp="2023-07-28T21:14:42" tests="1" time="6.102" failures="0">
+    <testcase name="Logueo de pagina erroneo con usuario incorrecto logueo valido" time="6.046" classname="logueo valido">
+    </testcase>
+  </testsuite>
+</testsuites>
