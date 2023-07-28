@@ -19,7 +19,8 @@ git clone https://github.com/PabloOrtiz07/DicsysTests
 1. Navega al directorio del proyecto:
 
 ```bash
-cd e2e
+cd DicsysTests/e2e
+
 ```
 
 1. Inicia el entorno Docker mediante Docker Compose:
