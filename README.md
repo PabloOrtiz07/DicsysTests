@@ -20,7 +20,8 @@ git clone https://github.com/PabloOrtiz07/DicsysTests
 2. Navega al directorio del proyecto desde el comando:
 
 ```bash
-cd DICSYSTEST/e2e
+cd DicsysTests/e2e
+
 ```
 
 3. Inicia el entorno Docker mediante Docker Compose:
@@ -54,8 +55,11 @@ Usuario de prueba para Mercado Libre:
 
 ### 2. Caso de prueba para Automation Test Store
 
-#### a. Login de la página web
-#### b. Suscripción a la newsletter
+#### a. Login de la página web con usuario y contraseña correctas
+#### b. Login de la página web con usuario incorrecto
+#### c. Login de la página web con contraseña incorrecta
+#### d. Login de la página web y se agrega al carrito de compra 3 items del mismo tipo
+#### e. Suscripción a la newsletter
 
 ## Estructura del proyecto
 

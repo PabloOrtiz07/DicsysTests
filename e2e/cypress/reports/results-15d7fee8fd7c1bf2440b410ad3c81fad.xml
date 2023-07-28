@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="47.242" tests="3" failures="0">
+  <testsuite name="Root Suite" timestamp="2023-07-28T20:43:51" tests="0" file="integration/loginMercadoLibre.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Login de Mercado Libre correcto" timestamp="2023-07-28T20:43:51" tests="1" time="21.622" failures="0">
+    <testcase name="Login de Mercado Libre correcto Login valido Mercado Libre" time="17.506" classname="Login valido Mercado Libre">
+    </testcase>
+  </testsuite>
+  <testsuite name="Login de Mercado Libre incorrecto" timestamp="2023-07-28T20:44:13" tests="1" time="12.266" failures="0">
+    <testcase name="Login de Mercado Libre incorrecto Login invalido Mercado Libre" time="12.227" classname="Login invalido Mercado Libre">
+    </testcase>
+  </testsuite>
+  <testsuite name="Click on MercadoLibre Offer Link" timestamp="2023-07-28T20:44:25" tests="1" time="13.327" failures="0">
+    <testcase name="Click on MercadoLibre Offer Link Should click on the MercadoLibre Offer link" time="13.210" classname="Should click on the MercadoLibre Offer link">
+    </testcase>
+  </testsuite>
+</testsuites>
