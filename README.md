@@ -13,19 +13,19 @@ Asegúrate de tener instalados los siguientes elementos antes de ejecutar este p
 1. Clona este repositorio en tu máquina local:
 
 ```bash
-git clone <URL del repositorio>
+git clone https://github.com/PabloOrtiz07/DicsysTests
 ```
 
 1. Navega al directorio del proyecto:
 
 ```bash
-cd <nombre_del_directorio>
+cd e2e
 ```
 
 1. Inicia el entorno Docker mediante Docker Compose:
 
 ```bash
-docker-compose up -d
+docker-compose up 
 ```
 
 Esto iniciará dos contenedores Docker, uno para Mercado Libre y otro para Automation Test Store, con Cypress instalado y listo para ejecutar los casos de prueba.
