@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="9.047" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2023-07-28T20:27:44" tests="0" file="integration/meLiSearchBox.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="busqueda de item en mercado libre" timestamp="2023-07-28T20:27:44" tests="1" time="9.013" failures="0">
+    <testcase name="busqueda de item en mercado libre busqueda disco ssd" time="5.969" classname="busqueda disco ssd">
+    </testcase>
+  </testsuite>
+</testsuites>

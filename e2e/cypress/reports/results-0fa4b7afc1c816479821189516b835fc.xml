@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="11.935" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2023-07-28T20:26:08" tests="0" file="integration/subscribeField.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="suscripcion a newsletter" timestamp="2023-07-28T20:26:08" tests="1" time="11.907" failures="0">
+    <testcase name="suscripcion a newsletter suscripcion al newsletter" time="8.023" classname="suscripcion al newsletter">
+    </testcase>
+  </testsuite>
+</testsuites>
