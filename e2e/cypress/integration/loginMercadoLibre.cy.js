@@ -1,5 +1,5 @@
 import loginMeli from "../pages/mercadoLibreLogin.js"
-
+/*
 describe('Login de Mercado Libre correcto',()=>{
     beforeEach(()=>{
       cy.visit('https://www.mercadolibre.com.ar/')
@@ -28,17 +28,16 @@ describe('Login de Mercado Libre incorrecto',()=>{
     login.getUserButton().click();
     cy.wait(2000); // Espera 2 segundos 
   })
-})
-/**
-describe('Test ofertas menores a $2000 en Mercado Libre',()=>{
-  beforeEach(()=>{
-    cy.visit('https://www.mercadolibre.com.ar/')
-  })
-  it('ofertas menores a $2000 Mercado Libre',()=>{
-    const login = new loginMeli();
-    login.getOfferButton.click();
-    cy.wait(1000); // Espera 1 segundo 
-    //login.get2000Button.click();
-  })
-})
- */
+})*/
+describe('Click on MercadoLibre Offer Link', () => {
+  it('Should click on the MercadoLibre Offer link', () => {
+    cy.visit('https://www.mercadolibre.com.ar'); // Replace with the actual URL
+
+    // Use cy.get() with the attribute selector to find and click the link
+      const login = new loginMeli();
+
+      login.getOfferButton().click();
+      login.get2000Button().click();   
+      cy.wait(2000);
+  });
+});

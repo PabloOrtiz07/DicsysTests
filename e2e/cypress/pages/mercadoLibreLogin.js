@@ -35,12 +35,12 @@ export default class login {
     getPassButton(){
         return cy.get(this.locators.passButton);
     }
-    /**
+    
     getOfferButton(){
-        return cy.get(this.locators.offerButton);
+        return cy.get('a[href="https://www.mercadolibre.com.ar/ofertas#nav-header"]');
     }
     get2000Button(){
-        return cy.get(this.locators.last2000);
+        return  cy.get('main#root-app section.filters_carousel div section div.andes-carousel-snapped__wrapper div:nth-child(6) img[alt="Menos de $2000"]');
     }
-     */
+     
 }
