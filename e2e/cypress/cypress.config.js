@@ -1,28 +1,26 @@
+/** CODIGO QUE FUNCIONA */
 const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
   chromeWebSecurity:false,
+  reporter: 'junit',
+  reporterEnabled: "mocha-junit-reporter, mochawesome",
+      mochaJunitReporterReporterOptions: {
+      mochaFile: "cypress/results/junit/results-[hash].xml"
+    },
+  reporterOptions: {
+      mochaFile: 'cypress/reports/results-[hash].xml',
+      reportDir: "cypress/results/mochawesome",
+      overwrite: false,
+      html: false,
+      json: true
+    },
   e2e: {
     specPattern: "**/*.cy.*",
-    //exclude: ["**/*.mp4"],
     excludeSpecPattern: "**/*.mp4",
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },
     supportFile: false,
-    // Agregar la configuración del reporte aquí
-    /* 
-    reporter: "cypress-multi-reporters",
-    reporterOptions: {
-      reporterEnabled: "mochawesome",
-      mochawesomeReporterOptions: {
-        reportDir: "cypress/reports/mocha",
-        quiet: true,
-        overwrite: false,
-        html: false,
-        json: true
-      }
-    }
-    */
   },
 });
